@@ -1,0 +1,25 @@
+.logoBox {
+  display: flex;
+  gap: 2px;
+  justify-content: flex-end;
+
+  .logOutBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .title {
+      color: rgba(0, 0, 0, 0.5);
+      &:hover {
+        color: #333;
+      }
+    }
+    .whiteTitle {
+      color: #fff;
+    }
+  }
+}
+
+.asdfa {
+  color: red;
+}

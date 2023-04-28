@@ -1,0 +1,54 @@
+.companyNavbar {
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+
+  .companyInfo {
+    border-radius: 8px;
+    display: flex;
+    border: 1px solid #ddd;
+    background-color: #46af3a;
+    padding: 10px 0;
+    margin-bottom: 10px;
+
+    .companyInfoBlock {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 35px;
+
+      .titleList {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+
+        .lable {
+          display: flex;
+          flex-direction: column;
+          font-size: 12px;
+          .itemsWraper {
+            display: flex;
+            gap: 5px;
+          }
+        }
+      }
+      .companyName {
+        display: flex;
+      }
+    }
+
+    .companyPhoto {
+      border: 3px solid #fff;
+      background: #fff;
+      box-shadow: 0 0 2px 2px hsl(0deg 0% 63% / 23%);
+      padding: 5px;
+    }
+  }
+}

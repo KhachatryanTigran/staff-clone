@@ -1,0 +1,22 @@
+.mainBox {
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  align-items: center;
+  .buttonBlock {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+.details {
+  margin-top: 5px;
+  padding: 3px;
+  border: 1px solid #46af3a;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+}

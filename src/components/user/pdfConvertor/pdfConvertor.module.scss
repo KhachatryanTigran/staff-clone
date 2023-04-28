@@ -1,0 +1,61 @@
+.outContiner {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 0 8px #dedede;
+  .continer {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    .btnBox {
+      padding: 10px 0;
+    }
+  }
+  .user {
+    margin: 2px 4px;
+    .userInfo {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      font-size: 11px;
+      h3 {
+        font: 14px;
+      }
+
+      .cvItem {
+        padding-bottom: 5px;
+        max-width: 100%;
+        word-wrap: break-word;
+      }
+      .sidebar {
+        flex: 1;
+        border-right: 1px solid lightgray;
+        height: 100%;
+        padding-right: 5px;
+        max-width: 27%;
+      }
+
+      .content {
+        flex: 2;
+        border-left: 1px solid lightgray;
+
+        padding-left: 10px;
+        .editorText {
+          padding-top: 5px;
+          word-wrap: break-word;
+          width: 100%;
+        }
+        .desk {
+          font-size: 12px;
+          color: #666;
+          width: 100%;
+        }
+      }
+      .cvline {
+        border-bottom: 2px solid lightgrey;
+        margin-bottom: 5px;
+        padding-top: 5px;
+      }
+    }
+  }
+}

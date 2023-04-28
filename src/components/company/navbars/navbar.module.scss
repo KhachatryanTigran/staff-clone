@@ -1,0 +1,64 @@
+.companyNavbar {
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  .companyCoverPhoto {
+    display: flex;
+    img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+    }
+  }
+  .companyInfo {
+    position: relative;
+    display: flex;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+    .companyInfoBlock {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 15px 0 15px 180px;
+
+      .titleList {
+        display: flex;
+        justify-content: space-between;
+
+        .lable {
+          display: flex;
+          flex-direction: column;
+          font-size: 12px;
+          .lableTime {
+            display: flex;
+            gap: 5px;
+          }
+        }
+      }
+      .companyName {
+        display: flex;
+      }
+    }
+
+    .followBtn {
+      display: flex;
+      align-items: center;
+      padding-right: 15px;
+    }
+    .companyPhoto {
+      top: -70px;
+      z-index: 1;
+      position: absolute;
+      left: 20px;
+      border: 3px solid #fff;
+      background: #fff;
+      box-shadow: 0 0 2px 2px hsl(0deg 0% 63% / 23%);
+    }
+  }
+}

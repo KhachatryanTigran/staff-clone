@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+button {
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.carousel-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.carousel-card {
+  max-width: 380px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 15px;
+}
+.carousel-wrapper button {
+  display: none;
+}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.activeLink {
+  font-weight: bold !important;
+  color: #46af3a !important;
+  &:hover {
+    color: none !important;
+  }
+}
+.notActive {
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-weight: bold;
+  &:hover {
+    color: #333 !important;
+  }
+}
+
+.wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.editor-class-big {
+  background-color: rgb(242, 241, 241);
+  padding: 1rem;
+  border: 1px solid #ccc;
+  overflow: scroll !important;
+  height: 500px !important;
+}
+
+.editor-class{
+  background-color: rgb(242, 241, 241);
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+
+.toolbar-class {
+  border: 1px solid #ccc;
+  gap: 10px;
+  
+}
+.demo-option-custom{
+display: none  !important;
+}
+.demo-popup-custom{
+  display: none !important;
+}
+
+.demo-width{
+  img{
+    width: 100% !important;
+    height: 100% !important;
+  }
+ width: 30px !important;
+ height: 30px !important;
+}
+
+
+.map{
+  width: 500px;
+  height: 300px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,91 @@
+.mainContent {
+  background-color: #fff;
+  margin-top: 15px;
+  .selectLimit {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contentHotJobs {
+    background-color: #fff;
+    padding: 15px;
+    width: 100%;
+  }
+  .contentNavbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 15px 15px 0 15px;
+    gap: 15px;
+    .navbarCheckboxes {
+      display: flex;
+
+      align-items: center;
+    }
+    .navbarButtons {
+      display: flex;
+      justify-content: start;
+
+      gap: 5px;
+    }
+  }
+  .jobsColections {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+  }
+}
+.jobInfo {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-color: #46af3a;
+  border-left-width: 3px;
+  min-height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+
+  &:hover {
+    background-color: rgb(245, 241, 241);
+  }
+  .jobInfoTitleBlocks {
+    font-size: 13px;
+    display: flex;
+    padding: 10px;
+    width: 30%;
+    min-height: 100px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    color: #333;
+    h4 {
+      font-weight: 700;
+    }
+    .jobInfoTitle {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+
+  .jobInfoButton {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+    color: #333;
+    button {
+      margin-left: 10px;
+    }
+  }
+  img {
+    background-color: white;
+    width: 100px;
+    object-fit: cover;
+  }
+}

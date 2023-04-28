@@ -1,0 +1,13 @@
+.changeButtons {
+  display: flex;
+  justify-content: space-between;
+
+  .changeIcons {
+    display: flex;
+    align-items: center;
+  }
+}
+.editorText {
+  word-wrap: break-word;
+  max-width: 100%;
+}

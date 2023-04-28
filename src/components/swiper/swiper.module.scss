@@ -1,0 +1,134 @@
+.nameInfoSmall {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 1;
+  -moz-line-clamp: 1;
+  -ms-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.imageBlog {
+  width: 40%;
+
+  .image {
+    width: 100px;
+    height: 120px;
+    border: 1px solid rgb(225, 220, 220);
+  }
+
+  .smallImage {
+    width: 60px;
+    height: 70px;
+  }
+}
+
+.text {
+  padding: 20px;
+
+  height: 100px;
+  line-height: 20px;
+  word-break: break-all;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 6;
+  -moz-line-clamp: 6;
+  -ms-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
+.smallText {
+  height: 43px;
+  line-height: 20px;
+  word-break: break-all;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 3;
+  -moz-line-clamp: 3;
+  -ms-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+.jobInfoButton {
+  background-color: aliceblue;
+
+  display: block;
+
+  text-align: center;
+  margin: 5px;
+  button {
+    margin: 5px;
+  }
+}
+.swiperMain {
+  padding: 40px;
+
+  width: 1200px;
+}
+
+.slide {
+  background-color: white;
+
+  border: 1px solid rgb(225, 220, 220);
+  height: 100%;
+  min-height: 150px;
+}
+.swiper {
+  width: 840px;
+}
+
+.swiper_info {
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .avatar {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+  }
+}
+.name {
+  width: 50%;
+
+  .span {
+    color: #46af3a;
+    font-size: 14px;
+  }
+}
+.nameInfo {
+  font-weight: 600;
+  padding: 10px 0 8px 0;
+}
+.nameSmall {
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.spanSmall {
+  color: #46af3a;
+  font-size: 12px;
+}
+
+.dots {
+  display: none;
+}
+
+:root {
+  --swiper-navigation-size: 30px;
+}

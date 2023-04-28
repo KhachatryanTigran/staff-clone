@@ -1,0 +1,39 @@
+.addBlock{
+background-color: rgb(230, 228, 228);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    // background: url('../../images/addBackground.png');
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background: linear-gradient(170deg, #46af3a 90%, #407bff) no-repeat;
+    background-color: rgb(242, 234, 234);
+
+    .item{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 900px;
+        width: 100%;
+        h3{
+           
+        }
+    }
+
+    .itemEditor{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      
+        width: 100%;
+    }
+}

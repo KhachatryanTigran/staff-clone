@@ -1,0 +1,61 @@
+.outContiner {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 0 8px #dedede;
+
+  .company {
+
+    margin-top: 15px;
+    .companyInfo {
+    }
+    .addInfo {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .editorDialog {
+      display: flex;
+      max-width: 90%;
+      .dialog{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: aqua;
+      }
+    }
+  }
+
+  .btn {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+  }
+}
+.aboutTitle{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.Addbtn{
+margin-top: 30px;
+}
+
+
+.editor{
+margin-top: 50px;
+}
+
+
+.editorBlock{
+  text-align: center;
+
+p{
+
+margin-bottom: 15px;
+font-size: 18px;
+}  
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}

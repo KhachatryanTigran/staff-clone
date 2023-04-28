@@ -1,0 +1,59 @@
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .lable {
+    font-size: 12px;
+    background-color: lightgrey;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .editor {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .formBtn {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .inputDate {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+.mainDetails {
+  display: flex;
+  max-width: 95%;
+  gap: 10px;
+
+  .detailItem {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    word-wrap: break-word;
+    .detailText {
+    }
+  }
+  .editorText {
+    max-width: 100%;
+    word-wrap: break-word;
+    margin: 3px;
+    padding: 5px;
+  }
+}

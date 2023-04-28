@@ -1,0 +1,80 @@
+// .shadow {
+//   box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.1) !important;
+//   width: 100vw;
+// }
+.header {
+  background-color: #46af3a;
+  padding: 17px 0;
+
+  .mainNavbar {
+    .header__block {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        align-items: center;
+        cursor: pointer;
+        img {
+          width: 130px;
+        }
+      }
+
+      .mainMenu {
+        display: flex;
+
+        .menu {
+          display: flex;
+          list-style: none;
+          justify-content: flex-end;
+          align-items: center;
+          .logOutoBox {
+            &:hover {
+              background-color: transparent;
+            }
+          }
+
+          .item {
+            display: flex;
+            height: 100%;
+            font-weight: 700;
+            color: #fff;
+            padding: 2px 15px;
+            align-items: center;
+          }
+          a {
+            display: flex;
+            height: 100%;
+            font-weight: 700;
+            color: #fff;
+            padding: 2px 15px;
+            align-items: center;
+            &:hover {
+              background-color: #fff;
+              color: #46af3a;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.activeLink {
+  font-weight: bold !important;
+  color: #46af3a !important;
+  &:hover {
+    color: none !important;
+  }
+}
+.notActive {
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-weight: bold;
+  &:hover {
+    color: #333 !important;
+  }
+}
+.whiteHeader {
+  background-color: #fff;
+}

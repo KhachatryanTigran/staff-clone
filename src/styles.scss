@@ -1,0 +1,22 @@
+.outContiner {
+  background-color: #ddd;
+  justify-content: center;
+}
+.jobs {
+  width: 100%;
+  display: flex;
+  background-color: #ddd;
+}
+
+.sidebar {
+  background-color: transparent;
+  flex: 1;
+}
+
+.content {
+  flex: 3;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgba(41, 202, 29, 0.5);
+}

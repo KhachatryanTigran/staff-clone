@@ -1,0 +1,50 @@
+.registerForm{
+    margin-top: 30px;
+    height: 100vh;
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+.block{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+margin-top: 20px;
+.inputBlock{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    input{
+        height: 50px;
+    }
+
+    .parag{
+        max-width: 140px;
+        width: 100%;
+    }
+}
+
+}
+}
+
+
+.phoneInput{
+max-width: 350px;
+width: 100%;
+}
+
+.btnBlock{
+   
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   margin: 50px auto;
+   padding: 10px;
+}
+
+.btn{
+width: 500px;
+}

@@ -1,0 +1,47 @@
+
+.select__block{
+    max-width: 350px;
+    width: 100%;
+    .select{
+        height: 30px;
+        width: 100%;
+    }
+}
+
+.addBlock{
+max-width: 900px;
+ width: 100%;
+
+ .addSelect{
+    height: 55px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+ }
+}
+
+.clicked {
+    border-color: red;
+}
+.selected {
+    border-color: green;
+}
+
+.error{
+    color: #D32F2F;
+    text-align: left;
+   p{
+    margin-top: 5px;
+    margin-left: 10px;
+   }
+}
+
+// .pristine{
+//     border-color: red;
+//   }
+
+// .error:focus{
+//     border-color: red;
+//   }
+  

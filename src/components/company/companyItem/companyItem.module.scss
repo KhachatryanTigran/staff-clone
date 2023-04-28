@@ -1,0 +1,63 @@
+.jobInfo {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid;
+    border-color: #46af3a;
+    border-left-width: 3px;
+    min-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   cursor: pointer;
+    &:hover {
+      background-color: rgb(245, 241, 241);
+    }
+    .jobInfoTitleBlocks {
+      font-size: 13px;
+      display: flex;
+      padding: 10px;
+      // width: 30%;
+      min-height: 100px;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      color: #333;
+      h4 {
+        font-weight: 700;
+      }
+      .jobInfoTitle {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+  
+    .jobInfoButton {
+      align-self: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      width: 40%;
+      color: #333;
+      button {
+        margin-left: 10px;
+      }
+    }
+    img {
+      background-color: white;
+      width: 100px;
+      object-fit: cover;
+    }
+  }
+
+
+  .block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }

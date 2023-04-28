@@ -1,0 +1,32 @@
+.outContiner {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 0 8px #dedede;
+
+  .user {
+    margin: 15px 0;
+
+    .userInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .cvItem {
+        border: outset 3px #46af3a;
+        border-radius: 5px;
+      }
+    }
+    .addInfo {
+      display: flex;
+      justify-content: center;
+    }
+    .editorDialog {
+      max-width: 90%;
+    }
+  }
+
+  .btn {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+  }
+}

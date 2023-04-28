@@ -1,0 +1,28 @@
+.registerForm {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  .block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .inputBlock {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      input {
+        height: 30px;
+      }
+
+      .parag {
+        max-width: 140px;
+        width: 100%;
+      }
+    }
+  }
+}

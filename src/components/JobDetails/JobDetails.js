@@ -20,6 +20,7 @@ const JobDetails = () => {
   const getData = useCallback(async () => {
     const docRef = doc(db, "jobs", id);
     const docSnap = await getDoc(docRef);
+
     setJobData(docSnap.data());
   }, [id]);
 
@@ -58,7 +59,7 @@ const JobDetails = () => {
             <div className={styles.contailner_relative}>
               <div className={styles.image}>
                 <ImageAvatars
-                  photoURL={jobData?.img}
+                  photoURL={jobData?.photoUrl}
                   customStyles={avatarCustomStyles}
                 />
               </div>
